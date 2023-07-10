@@ -5,8 +5,7 @@
 #define SIZE 26
 
 void encode(char a[],int b) 
-{
-    char arr[50];
+{char arr[50];
     int i,val,enval;
     char lowcase,upcase;
         if(a[i]>='A' && a[i]<='Z') 
