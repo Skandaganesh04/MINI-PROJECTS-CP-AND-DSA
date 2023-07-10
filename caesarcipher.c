@@ -6,18 +6,17 @@
 
 void encode(char a[],int b) 
 {char arr[50];
-    int i,val,enval;
-    char lowcase,upcase;
-        if(a[i]>='A' && a[i]<='Z') 
-        {
-        upcase='A';
-        upcase='Z';
-        } 
+int i,val,enval;
+ char lowcase,upcase;
+    if(a[i]>='A' && a[i]<='Z') 
+       
+    { upcase='A';
+        upcase='Z'; }
+        
             else if(a[i]>='a'&& a[i]<='z') 
-            {
-            lowcase='a';
-            lowcase='z';
-            } 
+ {
+     lowcase='a';
+            lowcase='z'; } 
                 else 
                 {
                 printf("Invalid Character");
